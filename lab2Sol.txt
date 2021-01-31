@@ -1,0 +1,13 @@
+-Tell me how to list tags locally.
+- git tag –list
+- Tell me how to delete tag locally and remotely.
+- To remove locally: git tag -d tagName
+- To remove remotely: git push origin --delete tagName
+- tell me how to remove a branch locally and remotley
+- To remove locally: git branch -d branch name
+- To remove remotely: git push orign --delte branchName 
+-Merge takes all the changes in one branch and merges them into another branch in one commit
+-Rebase says I want the point at which I branched to move to a new starting point
+ex:
+	git checkout feature
+	git rebase master
